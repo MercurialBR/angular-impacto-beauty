@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+
+  background-color: var(--back1-color);
+}
+
+img {
+  width: 70%;
+  padding: 50px;
+}

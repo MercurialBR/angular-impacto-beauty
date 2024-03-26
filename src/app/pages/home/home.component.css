@@ -1,0 +1,19 @@
+.icons_white {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: px;
+    grid-row-gap: 0px;
+}
+
+.color1 {
+  background-color: var(--icon1-color);
+}
+
+.color2 {
+  background-color: var(--icon2-color);
+}
+
+.color3 {
+  background-color: var(--icon3-color);
+}

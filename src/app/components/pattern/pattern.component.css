@@ -1,0 +1,13 @@
+.container {
+  background-color: var(--back1-color);
+
+  z-index: -99;
+  position: relative;
+  top: -70px;
+  margin-bottom: -70px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,14 @@
+.container {
+  background-color: var(--back3-color);
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+
+  align-items: center;
+
+
+  padding: 4%;
+  border-radius: 0px 0px 78px 78px;
+}
+
