@@ -15,3 +15,12 @@ h2 {
   font-size: 1.05rem;
   font-family: 'LEMON MILK LIGHT';
 }
+
+@media screen and (max-width: 767px){
+  .container{
+    padding: 8%;
+  }
+  h2 {
+    font-size: .7rem;
+  }
+}

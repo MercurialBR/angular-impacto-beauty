@@ -1,4 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
+@import '/node_modules/animate.css/animate.min.css';
 
 :root {
   --title-color: #52557E ;
@@ -37,4 +37,13 @@ h2 {
   font-size: 1.0rem;
   color: var(--title-color);
   padding: 10px;
+}
+
+@media screen and (max-width: 767px){
+  h1 {
+    font-size: 1.1rem;
+  }
+  h2 {
+    font-size: .8rem;
+  }
 }
