@@ -39,6 +39,19 @@ h2 {
   padding: 10px;
 }
 
+/* Scrollbar */
+body::-webkit-scrollbar {
+  width: 0.4rem;
+}
+body::-webkit-scrollbar-track {
+  background: var(--back1-color);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--back2-color);
+}
+
+
+/* media queries */
 @media screen and (max-width: 767px){
   h1 {
     font-size: 1.1rem;
